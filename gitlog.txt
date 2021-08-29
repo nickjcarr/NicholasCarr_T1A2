@@ -1,0 +1,11 @@
+commit 1558190b79d040e2a7c715b6f88eec793e953f6a
+Author: nickjcarr <cam022118@coderacademy.edu.au>
+Date:   Sun Aug 29 11:28:32 2021 +0800
+
+    creation of header and nav bar elements
+
+commit d369fa460d4638615a3b52b4c72464d2d09042d7
+Author: nickjcarr <89064299+nickjcarr@users.noreply.github.com>
+Date:   Sun Aug 29 10:54:35 2021 +0800
+
+    Initial commit

@@ -1,0 +1,162 @@
+/**{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Shadows Into Light', cursive;;
+}
+
+body {
+    background: #f2f2f2;
+}
+header {
+    
+    position: absolute;
+    background-color: #bfbfbf;
+    width: 100%;
+    height: 10vh;
+
+}
+.header {
+    margin-top: 300px;
+}
+nav {
+    width: 100%;
+    height: 100px;
+    background-color: #7e9c57;
+    line-height: 100px;
+    padding: 0px 80px;
+
+}
+
+nav ul {
+    float: right;
+}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    
+    
+}
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0px 20px;
+}
+.checkbtn {
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+    float: right;
+    display: none;
+}
+#check {
+    display: none;
+}
+@media screen and (max-width: 990px) {
+    nav {
+        padding: 0px 50px;
+    }
+    .checkbtn {
+        display: block;
+
+    }
+    nav ul {
+        width: 100%;
+        height: 100vh;
+        background-color: #53694c;
+        position: fixed;
+        text-align: center;
+    }
+    nav ul li {
+        display: block;
+        margin: 60px 0px;
+        line-height: 20px;
+    }
+}
+    
+}
+*/
+/*
+*{
+    box-sizing: border-box;
+
+}
+body {
+    margin: 0;
+    font: arial;
+    font-weight: bold;
+}*/
+/*styling the header to fit the nav bar in. Centering the text and giving it a 100% width to cover the whole screen*/
+/*
+header {
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    height: 100px;
+}
+do not need to see the checkbox*/
+/*
+.toggler {
+    display: none;
+}
+nav ul {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    padding: 16px;
+    background: burlywood;
+    list-style: none;
+    left: -100%;
+}
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f2f2f2;
+}
+nav {
+    background: #222222;
+    pad: 10px 40px 10px 70px;
+    height: 100px;
+
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-right: 50px;
+    height: 100px;
+
+}
+nav ul li.items {
+    display: flex;
+    padding: 0 25px;
+    
+    
+}
+nav ul div.items a {
+    display: flex;
+
+    text-decoration: none;
+    font-size: 25px;
+    padding: 0px 12px;
+    
+}
+nav ul div.items a:hover {
+    cursor: pointer;
+   
+}
+@media screen and  (max-wdith: 1050px) {
+    nav {
+        padding: 10px 40px 10px 0px;
+    }
+    nav ul div.items {
+        flex: 4;
+    }
+}
