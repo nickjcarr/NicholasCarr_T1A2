@@ -1,3 +1,9 @@
+commit 5687651ca055c08bb205467320f6ee7fa4e5bf5c
+Author: nickjcarr <cam022118@coderacademy.edu.au>
+Date:   Sun Aug 29 16:20:28 2021 +0800
+
+    having trouble with nav bar installation as need to know javascript to do what i want to do. all the list items and figure out later
+
 commit 1558190b79d040e2a7c715b6f88eec793e953f6a
 Author: nickjcarr <cam022118@coderacademy.edu.au>
 Date:   Sun Aug 29 11:28:32 2021 +0800
