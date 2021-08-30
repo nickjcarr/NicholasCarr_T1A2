@@ -46,3 +46,17 @@
   .dropdown:hover .dropdown-content {display: block;}
   
   .dropdown:hover .dropbtn {background-color: grey;}
+
+  footer {
+    background-color: #bfbfbf;
+    height: 10vh;
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+}
+footer h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
