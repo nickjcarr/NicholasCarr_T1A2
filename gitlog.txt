@@ -1,3 +1,15 @@
+commit 512b2df506c4c865d27492204de73e0fa2e96438
+Author: nickjcarr <cam022118@coderacademy.edu.au>
+Date:   Mon Aug 30 14:41:44 2021 +0800
+
+    installing footer with copyright reserved H2 for all pages
+
+commit 778e8fadc6f570985ce4082bf5041b765791612b
+Author: nickjcarr <cam022118@coderacademy.edu.au>
+Date:   Mon Aug 30 13:51:40 2021 +0800
+
+    Finally found a way to make a navigation bar that is drop down so I can make it easier for tablets and phones. This is my updated version
+
 commit 5687651ca055c08bb205467320f6ee7fa4e5bf5c
 Author: nickjcarr <cam022118@coderacademy.edu.au>
 Date:   Sun Aug 29 16:20:28 2021 +0800
