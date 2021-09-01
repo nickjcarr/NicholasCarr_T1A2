@@ -2,10 +2,10 @@
 *{
     margin: 0;
     padding: 0;
-    
+    animation: backgroundcolour infinite 20s;
     font-family: Arial, Helvetica, sans-serif;
-    
 }
+
 .dropbtn {
     background-color: transparent;
     color: white;
@@ -75,4 +75,38 @@ footer h2 {
     height: 50px;
     background-color: cornflowerblue;
     width: 100%;
+}
+
+
+@keyframes backgroundcolour {
+  0%
+  {
+      background-color: #e74c3c;
+
+  }
+  20%
+  {
+      background-color: #2980b9;
+
+  }
+  40%
+  {
+      background-color: #f1c40f;
+
+  }
+  60%
+  {
+      background-color: #8e44ad;
+
+  }
+  80%
+  {
+      background-color: #34495e;
+
+  }
+  100%
+  {
+      background-color: #e74c3c;
+
+  }
 }
