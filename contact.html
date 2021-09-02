@@ -8,22 +8,43 @@
     <title>Document</title>
 </head>
 <body>
-    <header class="pageheader">
-        <nav>
-            <div class="dropdown">
-              <button class="dropbtn">Menu</button>
-              <div class="dropdown-content">
-                <a href="#">Home</a>
-                <a href="#">About</a>
-                <a href="#">Projects</a>
-                <a href="#">Blog</a>
-                <a href="#">Contact</a>
-              </div>
-            </nav>
-        </header>
-    
-    <footer>
-        <h2>&copy;Copyright Reserved.</h2>
-    </footer>
+  <!--nav bar drop down menu with links to all pages on the site-->
+  <header class="pageheader">
+    <nav>
+        <div class="dropdown">
+          <button class="dropbtn">Menu</button>
+          <div class="dropdown-content">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Projects</a>
+            <a href="#">Blog</a>
+            <a href="#">Contact</a>
+          </div>
+        </nav>
+    </header>
+    <!--contact form which will have a name, email and message input area with a submit button underneath-->
+    <dic class="contact-section">
+        <h1>Contact Me</h1>
+        <form action="contact.html" class="contact-form" method="post">
+            <input type="text" class="contact-form-text" placeholder="Name">
+            <input type="email" class="contact-form-text" placeholder="Email">
+            <input type="text" class="contact-form-text" placeholder="Phone number">
+            <textarea class="contact-form-text" placeholder="Your message"></textarea>
+            <input type="submit" class="contact-form-button" value="Send">
+        </form>
+    </dic>
+
+
+
+<!--footer for all pages including linkedin and gihub icons in the footer, as well as links to their respective websites-->
+<div class="footer">
+    <article>
+        
+        <a href="https://www.linkedin.com/in/nick-carr-a35644172/">
+            <image class="linkedin" src="images/linkedin.png" alt="linkedin"></image>
+            </a>
+        <a href="https://www.github.com/nickjcarr">
+            <image class="github" src="images/github.png" alt="github"></image>
+            </a>
 </body>
 </html>
