@@ -121,21 +121,54 @@ nav {
     font-size: 10px;
     padding: 20px;
 }
+/* abbout me page text and photo becoming a column */
+.about-me-photo-content {
+    flex-direction: column-reverse;
+    justify-content: center;
+    display: flex;
+    
+}
     
 }
 /******about me******/
 /* setting the width for about me page */
 .about-me-container {
     width: 100vw;
+    justify-content: center;
+    
+    
 
 }
 .about-me-photo {
     width: 50%;
+    background-color: salmon;
 }
-.about-me-text {
+.about-me-content {
     width: 50%;
+    background-color: springgreen;
 }
 .about-me-photo-content {
+    width: 100vw; 
+    display: flex;
+    background-color: royalblue;
+    padding: 20px;
+    font-size: 20px;
    
 
+}
+/* centering about me content */
+.about-me-photo-content p {
+    display: flex;
+    text-align: center;
+}
+.about-me-photo-content h3 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+
+}
+.mypic {
+    height: 400px;
+    width: 400px; 
 }
