@@ -1,3 +1,5 @@
+
+/* standard settings for the beginning of a css page */
 *{
     margin: 0px;
     padding: 0px;
@@ -6,26 +8,30 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 }
+/* defining header attributes */
 header {
     display: flex;
-    background-color: green;
+    
     height: 50px;
     width: 100vw;
     justify-content: center;
     align-items: center;
 }
+/* making list items in unordered list inline */
 ul li {
     display: inline;
     
 }
+/* unordered list attributes  */
 ul {
     height: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     width: 100%;
     
 }
+/* nav bar attributes */
 nav { 
     font-size: 20px;
     background-color: grey;
@@ -39,7 +45,7 @@ nav {
 
 
 }
-/* putting list items on x axis and spacing them out */
+/* defining width of container. no height to make it a scrollable page */
 
 .container {
     background-color: blue;
@@ -49,7 +55,7 @@ nav {
 
 
 }
-
+/*  */
 .content-section {
     display: flex;
     flex-direction: column;
@@ -59,9 +65,10 @@ nav {
 }
 .heading-section {
     display: flex;
-    
+    padding: 50px;
     width: 100%;
     justify-content: center;
+   
 
 }
 .h4heading {
@@ -80,8 +87,9 @@ nav {
 
 }
 .card img {
-    width: 75%;
-    padding-right: 50px;
+    width: 20%;
+    padding: 10px;
+    border-bottom-left-radius: 15%;
     
     
 }
@@ -93,6 +101,41 @@ nav {
 
 }
 .card p {
-    width: 25%;
+    display: flex;
+    width: 80%;
+    margin-left: 20px;
+    flex-direction: column;
+    justify-content: center;
+
+}
+@media  (max-width: 700px) {
+  /* changes for the image when on a mobile screen */
+    .card {
+        display: flex;
+        flex-direction: column;
+    }
+.card img {
+    width: auto;
+}
+.heading-section {
+    font-size: 10px;
+    padding: 20px;
+}
+    
+}
+/******about me******/
+/* setting the width for about me page */
+.about-me-container {
+    width: 100vw;
+
+}
+.about-me-photo {
+    width: 50%;
+}
+.about-me-text {
+    width: 50%;
+}
+.about-me-photo-content {
+   
 
 }
