@@ -1,0 +1,19 @@
+nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    
+    justify-content: space-around;
+    font-family: 
+  
+}
+nav ul li {
+    cursor: pointer;
+    padding: 0.5rem;
+    
+ }   
+/* change colour of li items when the mouse is over them */
+nav ul li:hover {
+    background-color: #555;
+    color: white;
+} */

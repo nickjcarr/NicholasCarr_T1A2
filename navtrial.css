@@ -92,3 +92,7 @@ nav ul li:hover {
     width: 85%;
     margin: auto;
 }
+.about-me-photo-content {
+    display: flex;
+    width: 100%;
+}

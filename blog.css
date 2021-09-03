@@ -140,11 +140,11 @@ nav {
 
 }
 .about-me-photo {
-    width: 50%;
+    flex: 1;
     background-color: salmon;
 }
 .about-me-content {
-    width: 50%;
+    flex: 1;
     background-color: springgreen;
 }
 .about-me-photo-content {
@@ -153,6 +153,7 @@ nav {
     background-color: royalblue;
     padding: 20px;
     font-size: 20px;
+    justify-content: space-around;
    
 
 }
@@ -160,6 +161,8 @@ nav {
 .about-me-photo-content p {
     display: flex;
     text-align: center;
+    
+    
 }
 .about-me-photo-content h3 {
     display: flex;
@@ -170,5 +173,37 @@ nav {
 }
 .mypic {
     height: 400px;
-    width: 400px; 
+    width: 400px;  
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+}
+@media  (max-width: 700px) {
+    .about-me-photo-content {
+        display: flex;
+        align-items: center;
+    }
+    .mypic {
+        padding: 2px;
+    
+    }
+/*******projects*****/
+/* standard set up of width of page for this page */
+.projects-together-main {
+    width: 100%;
+    display: flex;
+    background: grey ;
+    flex-direction: row;
+    
+}
+/* making all portfolio entries take up equal space on the page */
+.projects-together {
+   /* flex: 1;
+   border: 6px solid red; */
+}
+ @media  (max-width: 700px) {
+    .projects-together-main {
+        flex-direction: column;
+    } 
+    
 }
