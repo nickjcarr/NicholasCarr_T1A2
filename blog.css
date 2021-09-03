@@ -174,9 +174,10 @@ nav {
 .mypic {
     height: 400px;
     width: 400px;  
-    vertical-align: middle;
+    vertical-align: middle; 
     display: flex;
     align-items: center;
+    
 }
 @media  (max-width: 700px) {
     .about-me-photo-content {
@@ -195,15 +196,30 @@ nav {
     background: grey ;
     flex-direction: row;
     
+    
 }
 /* making all portfolio entries take up equal space on the page */
-.projects-together {
-   /* flex: 1;
-   border: 6px solid red; */
+.projects-together1 {
+   flex: 1;
+   border: 6px solid red; 
+   display: flex;
 }
- @media  (max-width: 700px) {
+.projects-together2 {
+    flex: 1;
+    border: 6px solid red; 
+    display: flex;
+ }
+ .projects-together3 {
+    flex: 1;
+    border: 6px solid red; 
+    display: flex;
+ }
+.project-image {
+    width: 100%;
+}
+  @media  (max-width: 700px) {
     .projects-together-main {
         flex-direction: column;
     } 
     
-}
+} 
