@@ -9,6 +9,9 @@
     font-family: 'Kavivanar', cursive;
 
 }
+body {
+    background-color: violet;
+}
 /* defining header attributes */
 header {
     display: flex;
@@ -46,9 +49,14 @@ nav {
 
 
 }
+/* hover effect for nav bar list items */
+nav ul li a:hover {
+    color: violet;
+    transition: 0.9s;
+}
 /*********blog css********/
 /* defining width of container. no height to make it a scrollable page */
-
+/* establishing width for container */
 .container {
     background-color: blue;
     width: 100vw;
@@ -81,7 +89,7 @@ nav {
 }
 .card {
     display: flex;
-    background-color: red;
+    background-color:;
     width: 100%;
     justify-content: center;
     padding: 30px;
@@ -198,7 +206,26 @@ nav {
 /*******projects*****/
 /* standard set up of width of page for this page */
 
+.wrapper img {
+    width: 200px;
+    height: 200px;
+}
 
+
+.text {
+    width: 200px;
+    height: auto;
+
+}
+
+.big-wrapper {
+    width: 200px;
+    border: 3px solid grey;
+}
+.main-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
 
 
 
@@ -226,7 +253,7 @@ nav {
 } */
 /* Style inputs, select elements and textareas */
 .box-big {
-    /* width: 100%; */
+    
 
 }
 form {
@@ -258,6 +285,7 @@ form {
 .row1 {
   
 }
+/* was having trouble centering the contact folder when in desktop mode so this is how I overcame it, as it was ok on smaller devices */
 @media (min-width: 700px) {
     
     .small-box1 {
@@ -268,11 +296,34 @@ form {
         flex-direction: column;
        
     }
-    form {
-        
-    }
+    
 }
-@media (max width: 700p) {
-    
-    
+/* centering social media icons */
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px;
+}
+/* linkedin image sizing */
+.linkedin img {
+    width: 120px;
+    height: 120px;
+    margin: 10px;
+}
+/* github image sizing */
+
+.github img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 10px;
+
+}
+/* styling submit button */
+.submit {
+    background-color: #04AA6D;
+    color: white;
+    padding: 10px 20px;
+
 }
