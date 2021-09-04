@@ -6,6 +6,7 @@
     box-sizing: border-box;
     animation: backgroundcolour infinite 40s;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Kavivanar', cursive;
 
 }
 /* defining header attributes */
@@ -45,6 +46,7 @@ nav {
 
 
 }
+/*********blog css********/
 /* defining width of container. no height to make it a scrollable page */
 
 .container {
@@ -140,11 +142,11 @@ nav {
 
 }
 .about-me-photo {
-    flex: 1;
-    background-color: salmon;
+    /* flex: 1; */
+    /* background-color: salmon; */
 }
 .about-me-content {
-    flex: 1;
+    /* flex: 1; */
     background-color: springgreen;
 }
 .about-me-photo-content {
@@ -177,6 +179,7 @@ nav {
     vertical-align: middle; 
     display: flex;
     align-items: center;
+    border: grey 2px;
     
 }
 @media  (max-width: 700px) {
@@ -185,41 +188,91 @@ nav {
         align-items: center;
     }
     .mypic {
-        padding: 2px;
+        /* padding: 2px; */
+        width: 270px;
+        height: auto;
+        margin: 3px;
+        margin-top: 3px;
     
     }
 /*******projects*****/
 /* standard set up of width of page for this page */
-.projects-together-main {
+
+
+
+
+
+
+
+/*******contact **********/
+/* .contact-container {
     width: 100%;
     display: flex;
-    background: grey ;
-    flex-direction: row;
-    
-    
+    flex-direction: column;
 }
-/* making all portfolio entries take up equal space on the page */
-.projects-together1 {
-   flex: 1;
-   border: 6px solid red; 
-   display: flex;
-}
-.projects-together2 {
-    flex: 1;
-    border: 6px solid red; 
+.contact-container-1 {
     display: flex;
- }
- .projects-together3 {
-    flex: 1;
-    border: 6px solid red; 
-    display: flex;
- }
-.project-image {
-    width: 100%;
+    
 }
-  @media  (max-width: 700px) {
-    .projects-together-main {
+.contact-outer {
+    display: flex;
+    width: 400px;
+    height: 400px;
+    flex-direction: column;
+}
+.contact-container-1 img {
+    width: 100px;
+    height: auto;
+} */
+/* Style inputs, select elements and textareas */
+.box-big {
+    /* width: 100%; */
+
+}
+form {
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center; */
+    /* border: solid 3px black;
+    width: 300px;
+    height: 300px; */
+}
+.box {
+    /* display: flex;
+    max-width: 100%;
+    justify-content: center;
+     align-content: center;
+     align-items: center; */
+     
+     
+ }
+}
+/* .small-box1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center; 
+    flex-direction: column; */
+}
+.row1 {
+  
+}
+@media (min-width: 700px) {
+    
+    .small-box1 {
+        display: flex;
+        justify-content: center;
+        text-align: center; 
+        
         flex-direction: column;
-    } 
+       
+    }
+    form {
+        
+    }
+}
+@media (max width: 700p) {
     
-} 
+    
+}
