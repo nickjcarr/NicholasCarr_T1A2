@@ -1,6 +1,6 @@
 
 /* standard settings for the beginning of a css page */
-*{
+ *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -8,10 +8,12 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-family: 'Kavivanar', cursive;
 
-}
+} 
 body {
     background-color: violet;
 }
+/* navigation bar section */
+
 /* defining header attributes */
 header {
     display: flex;
@@ -206,29 +208,24 @@ nav ul li a:hover {
 /*******projects*****/
 /* standard set up of width of page for this page */
 
-.wrapper img {
+.dog {
+    height: 200px;
+    width: 200px;
+}
+.dog img {
+    height: 100%;
+    width: 100%;
+}
+
+
+/* #projects-image {
     width: 200px;
     height: 200px;
 }
-
-
-.text {
-    width: 200px;
-    height: auto;
-
-}
-
-.big-wrapper {
-    width: 200px;
-    border: 3px solid grey;
-}
-.main-wrapper {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-
-
+#projects-image img{
+    height: 100%;
+    width: 100%;
+} */
 
 
 /*******contact **********/
