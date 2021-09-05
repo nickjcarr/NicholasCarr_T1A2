@@ -5,19 +5,18 @@
     padding: 0px;
     box-sizing: border-box;
     animation: backgroundcolour infinite 40s;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-family: 'Kavivanar', cursive;
+    font-family: 'Spectral', serif;
+   
 
 } 
 body {
-    background-color: violet;
+    background-color: #D3D3D3	;
 }
 /* navigation bar section */
 
 /* defining header attributes */
 header {
     display: flex;
-    
     height: 50px;
     width: 100vw;
     justify-content: center;
@@ -26,6 +25,9 @@ header {
 /* making list items in unordered list inline */
 ul li {
     display: inline;
+    border: white 1px solid;
+    font-size: 20px;
+    color: white;    
     
 }
 /* unordered list attributes  */
@@ -35,6 +37,7 @@ ul {
     justify-content: space-evenly;
     align-items: center;
     width: 100%;
+    
     
 }
 /* nav bar attributes */
@@ -48,9 +51,13 @@ nav {
 
     width: 100%;
     height: 100%;
-
-
 }
+/* nav bar coloring for text */
+nav ul li a {
+    color: #D3D3D3;
+}
+
+
 /* hover effect for nav bar list items */
 nav ul li a:hover {
     color: violet;
@@ -59,15 +66,17 @@ nav ul li a:hover {
 /*********blog css********/
 /* defining width of container. no height to make it a scrollable page */
 /* establishing width for container */
+
+/* container for the whole blog page */
 .container {
-    background-color: blue;
+    background-color;
     width: 100vw;
     
     
 
 
 }
-/*  */
+/* this section includes the whole page of content including text and images all together */
 .content-section {
     display: flex;
     flex-direction: column;
@@ -75,6 +84,7 @@ nav ul li a:hover {
     justify-content: center;
 
 }
+/* header for all pages to use */
 .heading-section {
     display: flex;
     padding: 50px;
@@ -83,35 +93,42 @@ nav ul li a:hover {
    
 
 }
-.h4heading {
+/* .h4heading {
     display: flex;
     
     width: 100%;
     justify-content: center;
-}
+} */
+/* div with image text and heading */
 .card {
     display: flex;
     background-color:;
     width: 100%;
     justify-content: center;
     padding: 30px;
+    border: grey  solid 5px;
     
 
 }
+/* styling for all the images on the page */
 .card img {
     width: 20%;
-    padding: 10px;
-    border-bottom-left-radius: 15%;
+    margin: 10px;
+    
+    border: grey  solid 5px;
     
     
 }
+/* each heading in each blog post styling. made it flex to center the heading*/
 .card h4 {
-    display: flex;
+    display: flex; 
     
     width: 100%;
     justify-content: center;
 
+    
 }
+/* paragraph with the header above it. made it flex to let the heading be above the paragraph  */
 .card p {
     display: flex;
     width: 80%;
@@ -126,9 +143,11 @@ nav ul li a:hover {
         display: flex;
         flex-direction: column;
     }
+    /* auto change of the image size when on a smaller device */
 .card img {
     width: auto;
 }
+/* changing of the heading when on a smaller device */
 .heading-section {
     font-size: 10px;
     padding: 20px;
@@ -151,18 +170,16 @@ nav ul li a:hover {
     
 
 }
-.about-me-photo {
-    /* flex: 1; */
-    /* background-color: salmon; */
-}
+/* styling fo r the paragraph- adding the border */
 .about-me-content {
-    /* flex: 1; */
-    background-color: springgreen;
+    border: 5px grey solid; 
+  
 }
+/* the div surrounding the content of the page including */
 .about-me-photo-content {
     width: 100vw; 
     display: flex;
-    background-color: royalblue;
+    
     padding: 20px;
     font-size: 20px;
     justify-content: space-around;
@@ -173,67 +190,51 @@ nav ul li a:hover {
 .about-me-photo-content p {
     display: flex;
     text-align: center;
+   
     
     
 }
-.about-me-photo-content h3 {
+/* "view resume" link styling */
+ .about-me-photo-content h3 {
     display: flex;
     text-align: center;
     justify-content: center;
     padding: 10px;
 
+} 
+.about-me-photo {
+    border: 3px grey solid; 
+    height: auto;
+    width: 300px;
 }
+/* about me picture styling to make it fit the page well */
 .mypic {
-    height: 400px;
-    width: 400px;  
-    vertical-align: middle; 
-    display: flex;
-    align-items: center;
+    width: 300px;
+    height: 500px;  
+    
+    
     border: grey 2px;
     
-}
+} 
+/* making the image below the text whne on a smaller device */
 @media  (max-width: 700px) {
     .about-me-photo-content {
         display: flex;
         align-items: center;
     }
     .mypic {
-        /* padding: 2px; */
+        
         width: 270px;
         height: auto;
         margin: 3px;
         margin-top: 3px;
     
     }
-/*******projects*****/
-/* standard set up of width of page for this page */
 
-.dog {
-    height: 200px;
-    width: 200px;
-}
-.dog img {
-    height: 100%;
-    width: 100%;
-}
-
-
-/* #projects-image {
-    width: 200px;
-    height: 200px;
-}
-#projects-image img{
-    height: 100%;
-    width: 100%;
-} */
 
 
 /*******contact **********/
-/* .contact-container {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-}
+
 .contact-container-1 {
     display: flex;
     
@@ -247,41 +248,26 @@ nav ul li a:hover {
 .contact-container-1 img {
     width: 100px;
     height: auto;
-} */
+} 
 /* Style inputs, select elements and textareas */
 .box-big {
     
 
 }
-form {
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center; */
-    /* border: solid 3px black;
-    width: 300px;
-    height: 300px; */
+
+
 }
-.box {
-    /* display: flex;
-    max-width: 100%;
-    justify-content: center;
-     align-content: center;
-     align-items: center; */
-     
-     
- }
+
+
+
+
 }
-/* .small-box1 {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center; 
-    flex-direction: column; */
+
 }
 .row1 {
   
 }
+
 /* was having trouble centering the contact folder when in desktop mode so this is how I overcame it, as it was ok on smaller devices */
 @media (min-width: 700px) {
     

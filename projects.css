@@ -1,33 +1,44 @@
+/* this is the styling for all of the images  */
 .dog {
-    width: 400px;
-    height: 300px;
-}
-.dog {
+    
     border: grey  solid 5px;
+
+    
 }
+/* dog image styling */
 .projects-image img {
-    width: 400px;
+    width: 300px;
     height: 300px;
 
 }
+/* texts styling  */
 
 .projects-text {
-    width: 400px;
-    height: 300px;
+    width: 300px;
+    height: auto;
 }
+/* formatting the image and text together div. made the wrap on top of each other for mobile devices  */
 .image-and-text {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    margin-left: 10px;
 } 
+/* project titles styling */
 .image-and-text h2 {
     width: 400px;
     font-size: 20px;
-    display: flex;
-    justify-content: center;
-}
+    
+    align-content: center;
+    
 
+    margin: 10px;
+}
+/* making the project images and text wrap on top of each other on smaller devices */
 .image-and-text-container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
+
+

@@ -2,93 +2,81 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="blog.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@400;600&family=Montserrat:ital,wght@0,100;0,600;1,900&family=Spectral&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="blog.css">
+  <title>contact Page</title>
 </head>
 
 <body>
+<!-- header for the nav bar including unordered list and ordered list -->
+  <header>
 
-    <header>
+    <nav>
+      <ul>
+        <li><a href="/aboutme.html">About</a></li>
+        <li><a href="/projects.html">Projects</a></li>
+        <li><a href="/blog.html">Blog</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+      </ul>
 
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
+    </nav>
+  </header>
 
-        </nav>
-    </header>
-    <!-- <div class="contact-container">
-        <div class="heading-section">
-            <h1>Contact me</h1>
-        </div>
-        <div class="contact-outer">
-            <h2>Project 1</h2>
-            <div class="contact-container-1">
-                 <img src="images/projects1.png"> -->
-    <!-- </div>
-            <div class="contact-container2">
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla quidem at consectetur reprehenderit
-                    provident distinctio. Odit, id? Debitis consectetur saepe pariatur id a ipsam tempore repellat,
-                    quasi ratione sunt distinctio unde numquam quo, voluptatum quis maxime neque eius ab porro assumenda
-                    ad obcaecati autem! Harum qui quisquam soluta illo libero!</p>
-            </div>
-        </div>
 
-    </div> -->
-    
 
 
 </body>
+<!-- Page title being centered -->
 <div class="box-big">
-    <div class="heading-section">
-      <h1>Contact</h1>
+          <!-- contact page heading to be styled on its own -->
 
-    </div>
-    <div class="box">
-      <form>
-        <div class="small-box1">
-            <div class="row1">
-                <label for="fname">First Name</label>
-              </div>
-              <div class="small-box2">
-                <input type="text" id="fname" name="firstname" placeholder="Your name..">
-              </div>
-              <div class="small-box1">
-                <label for="fname">First Name</label>
-              </div>
-              <div class="small-box2">
-                <input type="email" id="email" name="email" placeholder="Your email..">
-              </div>
-              <div class="row">
-                <div class="small-box1">
-                  <label for="subject">Subject</label>
-                </div>
-                <div class="small-box2">
-                  <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-                </div>
-              </div>
-            <div class="row">
-              <input type="submit"class="submit" value="Submit">
-            </div>
-          </form>
-          <div class="links">
-              <div class="linkedin">
-                  <img src="images/linkedin1.png">
-              </div>
-              <div class="github">
-                  <img src="images/github.png">
-              </div>
-          </div>
-       
+  <div class="heading-section">
+    <h1>Contact</h1>
 
-    </div>
   </div>
+  <!-- One main container with a form layout for the contact form. This inclueds first name, email and subject with submit button.  -->
+  <div class="box">
+    <form>
+      <div class="small-box1">
+        <div class="row1">
+          <label for="fname">First Name</label>
+        </div>
+        <div class="small-box2">
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        </div>
+        <div class="small-box1">
+          <label for="email">Email</label>
+        </div>
+        <div class="small-box2">
+          <input type="email" id="email" name="email" placeholder="Your email..">
+        </div>
+        <div class="row">
+          <div class="small-box1">
+            <label for="subject">Subject</label>
+          </div>
+          <div class="small-box2">
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          </div>
+        </div>
+        <div class="row">
+          <input type="submit" class="submit" value="Submit">
+        </div>
+    </form>
+    <!-- linkedin and github icons and links to their site -->
+    <div class="links">
+      <div class="linkedin">
+        <a href="https://www.linkedin.com/in/nick-carr-a35644172/"><img src="images/linkedin1.png"> </a>
+      </div>
+      <div class="github">
+        <a href="https://www.github.com/nickjcarr"><img src="images/github.png"></a>
+      </div>
+    </div>
+
+
+  </div>
+</div>
 
 </html>
